@@ -86,7 +86,7 @@ def getUserJson(userInfo,token):
             "text": userInfo['classDescription']
         },
         #如果你来自其他学校，请自行打卡抓包修改地址字段
-        "areaStr": {"streetNumber":"","street":"长椿路辅路","district":"中原区","city":"郑州市","province":"河南省","town":"","pois":"河南工业大学(莲花街校区)","lng":113.55064699999795 + random.random()/1000,"lat":34.83870696238093 + random.random()/1000,"address":"中原区长椿路辅路河南工业大学(莲花街校区)","text":"河南省-郑州市","code":""},
+        "areaStr": {"streetNumber":"","street":"安居路","district":"武功县","city":"咸阳市","province":"陕西省","town":"","pois":"武功县仁和医院","lng":108.23390399999593 + random.random()/1000,"lat":34.25720603181247 + random.random()/1000,"address":"武功县安居路武功县仁和医院","text":"陕西省-咸阳市","code":""},
         "reportdate": round(time.time()*1000),
         "customerid": userInfo['customerId'],
         "deptid": userInfo['classId'],
